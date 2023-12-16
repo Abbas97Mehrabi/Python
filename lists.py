@@ -42,3 +42,15 @@ for number in numbers:
     if number not in uniques:
         uniques.append(number)
 print(uniques)
+
+# tuple
+number = (1, 2, 3)
+print(number)
+
+# unpacking
+
+coordinates = (1, 2, 3)
+x, y, z = coordinates
+print(x)
+print(y)
+print(z)
