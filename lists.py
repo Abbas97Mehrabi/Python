@@ -2,13 +2,6 @@ names = ['abbas', 'kadir', 'mahmut', 'ali']
 names[0] = 'Abbas'
 print(names[:3])
 
-# exercise largest number in the list
-nums = [5, 45, 6, 84, 12, 99]
-biggest = nums[0]
-for n in nums:
-    if biggest < n:
-        biggest = n
-print(f"The biggest number is : {biggest}")
 
 # 2 dimensional list
 matrix = [
